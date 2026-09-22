@@ -495,4 +495,3 @@ jobs:
           echo "Deploying tested artifact to PRODUCTION"
           ls -lh artifact
           echo "No rebuild is performed."
->>>>>>> develop
