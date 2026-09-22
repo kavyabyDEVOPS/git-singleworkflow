@@ -428,7 +428,7 @@ jobs:
         run: |
           cd integration/artifact
           python -m pip install pytest
-          pytest -v
+          PYTHONPATH=. pytest -v
 
 
   # --------------------------------------------------
